@@ -83,3 +83,47 @@ Regressão Logística e Random Forest
 - Avaliação e Otimização
 - Comparar o desempenho dos modelos usando métricas como precisão, recall e F1-score.
 - Ajustar os parâmetros dos modelos para melhorar a acurácia e reduzir o erro.
+
+___________________________________________________________________________________________________
+
+### ✴Projeto 7: Análise de Clusterização de Clientes para E-Commerce modelo de análise das métricas RFV
+
+#### ✅Contexto:
+
+Você foi contratado por uma empresa de e-commerce para melhorar a segmentação de seus clientes. A empresa deseja entender melhor o comportamento de compra de seus clientes para personalizar campanhas de marketing e otimizar estratégias de vendas. O objetivo é agrupar os clientes com base em seu comportamento de compra, utilizando técnicas de clusterização para identificar padrões e características comuns.
+
+#### ✅Objetivos: 
+
+Desenvolver um modelo de clusterização para agrupar os clientes com base em seu comportamento de compra, considerando métricas de Recência, Frequência e Valor Monetário (RFM). A segmentação permitirá à empresa identificar padrões e perfis de clientes para personalizar campanhas de marketing e otimizar suas estratégias.
+
+
+#### ✅Metodologia:
+### 1. Análise Exploratória dos Dados
+- **Carregamento e Inspeção**: Importar o dataset e revisar suas primeiras linhas.
+- **Descrição Estatística**: Obter estatísticas descritivas e visualizar distribuições das variáveis.
+- **Verificação de Dados**: Identificar e tratar dados nulos, duplicados, outliers e inconsistências.
+
+### 2. Pré-processamento dos Dados
+- **Normalização**: Escalar as variáveis para garantir contribuição equitativa ao modelo.
+- **Seleção de Variáveis**: Identificar e utilizar variáveis relevantes para a clusterização.
+- **Limpeza de Dados**: Remover ou corrigir dados nulos, duplicados e outliers.
+
+### 3. Seleção e Implementação do Algoritmo de Clusterização
+- **Escolha do Algoritmo**: Selecionar o algoritmo adequado (K-Means, DBSCAN, Hierárquico, Mean Shift).
+- **Determinação do Número de Clusters**: Utilizar métodos como Elbow ou Silhouette Score para definir a quantidade ideal de clusters.
+- **Execução**: Aplicar o algoritmo escolhido para gerar e analisar os clusters.
+
+### 4. Análise dos Clusters
+- **Identificação de Padrões**: Examinar os clusters para identificar características e padrões comuns entre os clientes.
+- **Visualização**: Utilizar gráficos e visualizações para facilitar a interpretação dos clusters.
+
+### 5. Interpretação dos Resultados e Recomendações
+- **Descrição dos Perfis**: Detalhar o perfil de compras dos clientes em cada cluster.
+- **Utilidade para a Empresa**: Explicar como a segmentação pode melhorar a personalização das campanhas de marketing.
+- **Ações Recomendadas**: Sugerir estratégias baseadas nos insights obtidos para otimizar as campanhas e melhorar o desempenho do e-commerce.
+
+## ✅Resultados Esperados
+
+- **Clusters Definidos**: Identificação de grupos de clientes com comportamentos de compra semelhantes.
+- **Insights de Segmentação**: Padrões e características que podem ser utilizados para personalizar campanhas e estratégias.
+- **Recomendações Práticas**: Ações sugeridas para a empresa com base nos clusters e perfis de clientes identificados.

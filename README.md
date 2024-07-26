@@ -56,3 +56,30 @@ Ticket Médio (M): Média do valor gasto por compra do cliente.
 
 __________________________________________________________________________________________________
 
+
+### ✴Projeto 6: Preveja os usuários com alta chance de deixar seu Streaming
+
+#### ✅Contexto:
+
+Este projeto visa desenvolver um modelo de classificação para prever a probabilidade de cancelamento (churn) de assinaturas em uma plataforma de streaming. Compreender o perfil dos usuários que têm mais chance de deixar a plataforma é crucial para implementar estratégias que reduzam a perda de clientes e melhorem a retenção.
+
+#### ✅Objetivos: 
+
+- Análise Exploratória de Dados (EDA): Explorar e entender os dados fornecidos para identificar padrões e preparar os dados para modelagem.
+- Preparação dos Dados: Limpar e preparar os dados para treinamento dos modelos.
+- Modelagem: Construir e avaliar modelos de classificação, incluindo Regressão Logística e Random Forest.
+- Avaliação e Tuning: Ajustar os modelos para melhorar a precisão das previsões.
+
+#### ✅Metodologia:
+
+- Importação e Inspeção de Dados
+Realizar uma análise descritiva para entender a distribuição e os tipos de dados.
+Identificar e quantificar valores faltantes.
+
+- Tratamento dos Dados
+- Modelagem dos Dados:    
+Regressão Logística e Random Forest
+- Implementar Grid Search para encontrar os melhores hiperparâmetros.
+- Avaliação e Otimização
+- Comparar o desempenho dos modelos usando métricas como precisão, recall e F1-score.
+- Ajustar os parâmetros dos modelos para melhorar a acurácia e reduzir o erro.

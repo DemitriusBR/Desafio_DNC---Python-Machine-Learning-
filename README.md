@@ -18,7 +18,7 @@ Este projeto tem como objetivo analisar e prever o desempenho dos investimentos 
 ## ✅Dados:
 - Gastos com Publicidade: Valores investidos mensalmente.
 - Retornos de Vendas: Valores de vendas associados aos investimentos.
-- 
+  
 ## ✅Metodologia:
 - Análise Exploratória de Dados (EDA): Identificar padrões e tendências.
 - Modelagem: Aplicar técnicas de machine learning para construir um modelo preditivo.
